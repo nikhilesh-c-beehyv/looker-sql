@@ -6,6 +6,11 @@ view: suppliers {
     primary_key: yes
     type: number
     sql: ${TABLE}.SupplierID ;;
+    link: {
+      label: "Learn More in Alation"
+      url: "https://hrb.alationcatalog.com/bi/v2/report_column/44597/"
+      icon_url : "https://www.alation.com/wp-content/uploads/alation-icon.png"
+    }
   }
 
   dimension: address {
